@@ -1,0 +1,339 @@
+{
+  "login": "Iniciar Sesión",
+  "identifier": "Correo o Nombre de Usuario",
+  "password": "Contraseña",
+  "loginButton": "Iniciar Sesión",
+  "noAccount": "¿No tienes cuenta? Regístrate",
+  "register": "Registrarse",
+  "fullName": "Nombre Completo",
+  "username": "Nombre de Usuario",
+  "email": "Correo Electrónico",
+  "birthdate": "Fecha de Nacimiento",
+  "confirmPassword": "Confirmar Contraseña",
+  "home": "Inicio",
+  "classes_for_day": "Clases para el {day}:",
+  "notification_title": "Notificación",
+  "event_time_message": "Es hora para el evento: {eventName}",
+  "add_class": "Agregar clase",
+  "class_name_label": "Nombre de la clase",
+  "select_time_label": "Selecciona la hora:",
+  "cancel": "Cancelar",
+  "save": "Guardar",
+  "subjects_progress": "Progreso de las asignaturas:",
+  "notes": "NOTAS",
+  "write_notes_hint": "Escribe tus notas...",
+  "search_users": "Buscar Usuarios",
+  "profile": "Perfil",
+  "subject": "Asignatura",
+  "level": "Nivel",
+  "monday": "Lunes",
+  "tuesday": "Martes",
+  "wednesday": "Miércoles",
+  "thursday": "Jueves",
+  "friday": "Viernes",
+  "shift": "Turno",
+  "morning": "Mañana",
+  "afternoon": "Tarde",
+  "no_users_found": "No se encontraron usuarios.",
+  "role_teacher": "Profesor",
+  "role_student": "Estudiante",
+  "valoraciones": "Valoraciones",
+  "asignaturas": "Asignaturas",
+  "alumnos": "Alumnos",
+  "descripcion": "Descripción",
+  "sin_descripcion": "Sin descripción",
+  "sin_asignaturas": "No tiene asignaturas asignadas",
+  "disponibilidad": "Disponibilidad",
+  "sin_disponibilidad": "No ha configurado su disponibilidad",
+  "historial_clases": "Historial de Clases",
+  "historial_clases_alumno": "Aquí se mostrará el historial de clases del alumno.",
+  "iniciar_chat": "Iniciar Chat",
+  "select_role": "Selecciona tu Rol",
+  "select_role_message": "Por favor, selecciona tu rol para continuar:",
+  "i_am_teacher": "Soy Profesor",
+  "i_am_student": "Soy Estudiante",
+  "role_note": "Nota: Después de seleccionar tu rol, te recomendamos actualizar tu perfil con información como disponibilidad, descripción y asignaturas de interés.",
+  "user_profile": "Perfil de Usuario",
+  "ratings": "Valoraciones",
+  "subjects": "Asignaturas",
+  "students": "Alumnos",
+  "description": "Descripción",
+  "no_description": "Sin descripción",
+  "subjects": "Asignaturas",
+  "no_subjects_assigned": "No tienes asignaturas asignadas",
+  "availability": "Disponibilidad",
+  "no_availability_configured": "No has configurado tu disponibilidad",
+  "class_history": "Historial de Clases",
+  "class_history_description": "Aquí se mostrará el historial de clases del alumno.",
+  "settings": "Configuración",
+  "update_data": "Actualizar Datos",
+
+  "@login": {
+    "description": "Título de la página de inicio de sesión",
+    "type": "text"
+  },
+  "@identifier": {
+    "description": "Etiqueta para el campo de correo o nombre de usuario",
+    "type": "text"
+  },
+  "@password": {
+    "description": "Etiqueta para el campo de contraseña",
+    "type": "text"
+  },
+  "@loginButton": {
+    "description": "Texto para el botón de iniciar sesión",
+    "type": "text"
+  },
+  "@noAccount": {
+    "description": "Texto para el enlace de registro",
+    "type": "text"
+  },
+  "@register": {
+    "description": "Título de la página de registro",
+    "type": "text"
+  },
+  "@fullName": {
+    "description": "Etiqueta para el campo de nombre completo",
+    "type": "text"
+  },
+  "@username": {
+    "description": "Etiqueta para el campo de nombre de usuario",
+    "type": "text"
+  },
+  "@email": {
+    "description": "Etiqueta para el campo de correo electrónico",
+    "type": "text"
+  },
+  "@birthdate": {
+    "description": "Etiqueta para el campo de fecha de nacimiento",
+    "type": "text"
+  },
+  "@confirmPassword": {
+    "description": "Etiqueta para el campo de confirmar contraseña",
+    "type": "text"
+  },
+  "@home": {
+    "description": "Título de la página principal",
+    "type": "text"
+  },
+  "@classes_for_day": {
+    "description": "Texto que muestra las clases del día seleccionado",
+    "type": "text"
+  },
+  "@notification_title": {
+    "description": "Título de la notificación de evento",
+    "type": "text"
+  },
+  "@event_time_message": {
+    "description": "Mensaje para notificar que es hora de un evento",
+    "type": "text"
+  },
+  "@add_class": {
+    "description": "Texto en el botón para agregar clase",
+    "type": "text"
+  },
+  "@class_name_label": {
+    "description": "Etiqueta para el campo de nombre de clase",
+    "type": "text"
+  },
+  "@select_time_label": {
+    "description": "Etiqueta para el selector de hora",
+    "type": "text"
+  },
+  "@cancel": {
+    "description": "Texto para el botón de cancelar",
+    "type": "text"
+  },
+  "@save": {
+    "description": "Texto para el botón de guardar",
+    "type": "text"
+  },
+  "@subjects_progress": {
+    "description": "Texto que muestra el progreso de las asignaturas",
+    "type": "text"
+  },
+  "@notes": {
+    "description": "Título de la sección de notas",
+    "type": "text"
+  },
+  "@write_notes_hint": {
+    "description": "Texto que aparece como sugerencia en el campo de notas",
+    "type": "text"
+  },
+  "@search_users": {
+    "description": "Título para la sección de búsqueda de usuarios",
+    "type": "text"
+  },
+  "@profile": {
+    "description": "Título para la página de perfil",
+    "type": "text"
+  },
+  "@subject": {
+    "description": "Etiqueta para la selección de asignatura",
+    "type": "text"
+  },
+  "@level": {
+    "description": "Etiqueta para el nivel de asignatura",
+    "type": "text"
+  },
+  "@monday": {
+    "description": "Etiqueta para el lunes",
+    "type": "text"
+  },
+  "@tuesday": {
+    "description": "Etiqueta para el martes",
+    "type": "text"
+  },
+  "@wednesday": {
+    "description": "Etiqueta para el miércoles",
+    "type": "text"
+  },
+  "@thursday": {
+    "description": "Etiqueta para el jueves",
+    "type": "text"
+  },
+  "@friday": {
+    "description": "Etiqueta para el viernes",
+    "type": "text"
+  },
+  "@shift": {
+    "description": "Etiqueta para la selección de turno",
+    "type": "text"
+  },
+  "@morning": {
+    "description": "Etiqueta para el turno de mañana",
+    "type": "text"
+  },
+  "@afternoon": {
+    "description": "Etiqueta para el turno de tarde",
+    "type": "text"
+  },
+  "@no_users_found": {
+    "description": "Mensaje mostrado cuando no se encuentran usuarios",
+    "type": "text"
+  },
+  "@role_teacher": {
+    "description": "Rol para profesor",
+    "type": "text"
+  },
+  "@role_student": {
+    "description": "Rol para estudiante",
+    "type": "text"
+  },
+  "@valoraciones": {
+    "description": "Etiqueta de valoraciones",
+    "type": "text"
+  },
+  "@asignaturas": {
+    "description": "Etiqueta de asignaturas",
+    "type": "text"
+  },
+  "@alumnos": {
+    "description": "Etiqueta de alumnos",
+    "type": "text"
+  },
+  "@descripcion": {
+    "description": "Título de la sección de descripción",
+    "type": "text"
+  },
+  "@sin_descripcion": {
+    "description": "Texto cuando no hay descripción disponible",
+    "type": "text"
+  },
+  "@sin_asignaturas": {
+    "description": "Texto cuando no tiene asignaturas asignadas",
+    "type": "text"
+  },
+  "@disponibilidad": {
+    "description": "Título de la sección de disponibilidad",
+    "type": "text"
+  },
+  "@sin_disponibilidad": {
+    "description": "Texto cuando no hay disponibilidad configurada",
+    "type": "text"
+  },
+  "@historial_clases": {
+    "description": "Título de la sección de historial de clases",
+    "type": "text"
+  },
+  "@historial_clases_alumno": {
+    "description": "Texto para el historial de clases del alumno",
+    "type": "text"
+  },
+  "@iniciar_chat": {
+    "description": "Texto del botón para iniciar chat",
+    "type": "text"
+  },
+  "@select_role": {
+    "description": "Texto para el encabezado de selección de rol",
+    "type": "text"
+  },
+  "@select_role_message": {
+    "description": "Mensaje que pide al usuario seleccionar su rol",
+    "type": "text"
+  },
+  "@i_am_teacher": {
+    "description": "Texto del botón para seleccionar el rol de profesor",
+    "type": "text"
+  },
+  "@i_am_student": {
+    "description": "Texto del botón para seleccionar el rol de estudiante",
+    "type": "text"
+  },
+  "@role_note": {
+    "description": "Nota para sugerir actualizar el perfil después de seleccionar el rol",
+    "type": "text"
+  },
+  "@user_profile": {
+    "description": "Título de la pantalla del perfil de usuario",
+    "type": "text"
+  },
+  "@ratings": {
+    "description": "Etiqueta para la sección de valoraciones",
+    "type": "text"
+  },
+  "@subjects": {
+    "description": "Etiqueta para la sección de asignaturas",
+    "type": "text"
+  },
+  "@students": {
+    "description": "Etiqueta para el número de alumnos de un profesor",
+    "type": "text"
+  },
+  "@description": {
+    "description": "Título para la sección de descripción",
+    "type": "text"
+  },
+  "@no_description": {
+    "description": "Texto mostrado cuando no hay descripción disponible",
+    "type": "text"
+  },
+  "@no_subjects_assigned": {
+    "description": "Texto mostrado cuando no hay asignaturas asignadas",
+    "type": "text"
+  },
+  "@availability": {
+    "description": "Título para la sección de disponibilidad",
+    "type": "text"
+  },
+  "@no_availability_configured": {
+    "description": "Texto mostrado cuando la disponibilidad no está configurada",
+    "type": "text"
+  },
+  "@class_history": {
+    "description": "Título para la sección de historial de clases",
+    "type": "text"
+  },
+  "@class_history_description": {
+    "description": "Texto que describe el historial de clases para un alumno",
+    "type": "text"
+  },
+  "@settings": {
+    "description": "Texto para el botón de configuración",
+    "type": "text"
+  },
+  "@update_data": {
+    "description": "Texto para el botón de actualizar datos",
+    "type": "text"
+  }
+}

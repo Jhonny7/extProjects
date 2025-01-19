@@ -1,0 +1,354 @@
+{
+  "login": "Log In",
+  "identifier": "Email or Username",
+  "password": "Password",
+  "loginButton": "Log In",
+  "noAccount": "Don't have an account? Register",
+  "register": "Register",
+  "fullName": "Full Name",
+  "username": "Username",
+  "email": "Email",
+  "birthdate": "Birthdate",
+  "confirmPassword": "Confirm Password",
+  "home": "Home",
+  "classes_for_day": "Classes for {day}:",
+  "notification_title": "Notification",
+  "event_time_message": "It's time for the event: {eventName}",
+  "add_class": "Add class",
+  "class_name_label": "Class name",
+  "select_time_label": "Select time:",
+  "cancel": "Cancel",
+  "save": "Save",
+  "subjects_progress": "Subjects progress:",
+  "notes": "NOTES",
+  "write_notes_hint": "Write your notes...",
+  "search_users": "Search Users",
+  "profile": "Profile",
+  "subject": "Subject",
+  "level": "Level",
+  "monday": "Monday",
+  "tuesday": "Tuesday",
+  "wednesday": "Wednesday",
+  "thursday": "Thursday",
+  "friday": "Friday",
+  "shift": "Shift",
+  "morning": "Morning",
+  "afternoon": "Afternoon",
+  "no_users_found": "No users found.",
+  "role_teacher": "Teacher",
+  "role_student": "Student",
+  "valoraciones": "Ratings",
+  "asignaturas": "Subjects",
+  "alumnos": "Students",
+  "descripcion": "Description",
+  "sin_descripcion": "No description",
+  "sin_asignaturas": "No subjects assigned",
+  "disponibilidad": "Availability",
+  "sin_disponibilidad": "No availability set",
+  "historial_clases": "Class History",
+  "historial_clases_alumno": "This is where the student's class history will be displayed.",
+  "iniciar_chat": "Start Chat",
+  "select_role": "Select Your Role",
+  "select_role_message": "Please select your role to continue:",
+  "i_am_teacher": "I am a Teacher",
+  "i_am_student": "I am a Student",
+  "role_note": "Note: After selecting your role, we recommend updating your profile with information such as availability, description, and subjects of interest.",
+  "user_profile": "User Profile",
+  "ratings": "Ratings",
+  "subjects": "Subjects",
+  "students": "Students",
+  "description": "Description",
+  "no_description": "No description available",
+  "subjects": "Subjects",
+  "no_level_specified": "No level specified",
+  "no_subjects_assigned": "No subjects assigned",
+  "availability": "Availability",
+  "no_availability_configured": "No availability configured",
+  "class_history": "Class History",
+  "class_history_description": "This is where the student's class history will be displayed.",
+  "settings": "Settings",
+  "update_data": "Update Data",
+
+  
+  
+  "@login": {
+    "description": "Title for the login page",
+    "type": "text"
+  },
+  "@identifier": {
+    "description": "Label for the email or username field",
+    "type": "text"
+  },
+  "@password": {
+    "description": "Label for the password field",
+    "type": "text"
+  },
+  "@loginButton": {
+    "description": "Text for the login button",
+    "type": "text"
+  },
+  "@noAccount": {
+    "description": "Text for the register link",
+    "type": "text"
+  },
+  
+  "@register": {
+    "description": "Title for the register page",
+    "type": "text"
+  },
+  "@fullName": {
+    "description": "Label for the full name field",
+    "type": "text"
+  },
+  "@username": {
+    "description": "Label for the username field",
+    "type": "text"
+  },
+  "@email": {
+    "description": "Label for the email field",
+    "type": "text"
+  },
+  "@birthdate": {
+    "description": "Label for the birthdate field",
+    "type": "text"
+  },
+  "@confirmPassword": {
+    "description": "Label for the confirm password field",
+    "type": "text"
+  },
+  "@home": {
+    "description": "Title for the home page",
+    "type": "text"
+  },
+  "@classes_for_day": {
+    "description": "Label for the classes for the day",
+    "type": "text"
+  },
+  "@notification_title": {
+    "description": "Title for the notification",
+    "type": "text"
+  },
+  "@event_time_message": {
+    "description": "Message when it's time for the event",
+    "type": "text"
+  },
+  "@add_class": {
+    "description": "Button or text for adding a class",
+    "type": "text"
+  },
+  "@class_name_label": {
+    "description": "Label for the class name field",
+    "type": "text"
+  },
+  "@select_time_label": {
+    "description": "Label for selecting the time of the class",
+    "type": "text"
+  },
+  "@cancel": {
+    "description": "Button or text for canceling",
+    "type": "text"
+  },
+  "@save": {
+    "description": "Button or text for saving",
+    "type": "text"
+  },
+  "@subjects_progress": {
+    "description": "Label for subjects progress",
+    "type": "text"
+  },
+  "@notes": {
+    "description": "Title for notes section",
+    "type": "text"
+  },
+  "@write_notes_hint": {
+    "description": "Hint for writing notes",
+    "type": "text"
+  },
+
+  "@search_users": {
+    "description": "Title for the user search section",
+    "type": "text"
+  },
+  "@profile": {
+    "description": "Title for the profile page",
+    "type": "text"
+  },
+  "@subject": {
+    "description": "Label for the subject selection",
+    "type": "text"
+  },
+  "@level": {
+    "description": "Label for the subject level",
+    "type": "text"
+  },
+  "@monday": {
+    "description": "Label for Monday",
+    "type": "text"
+  },
+  "@tuesday": {
+    "description": "Label for Tuesday",
+    "type": "text"
+  },
+  "@wednesday": {
+    "description": "Label for Wednesday",
+    "type": "text"
+  },
+  "@thursday": {
+    "description": "Label for Thursday",
+    "type": "text"
+  },
+  "@friday": {
+    "description": "Label for Friday",
+    "type": "text"
+  },
+  "@shift": {
+    "description": "Label for shift selection",
+    "type": "text"
+  },
+  "@morning": {
+    "description": "Label for the morning shift",
+    "type": "text"
+  },
+  "@afternoon": {
+    "description": "Label for the afternoon shift",
+    "type": "text"
+  },
+  "@no_users_found": {
+    "description": "Message displayed when no users are found",
+    "type": "text"
+  },
+  "@role_teacher": {
+    "description": "Role for teacher",
+    "type": "text"
+  },
+  "@role_student": {
+    "description": "Role for student",
+    "type": "text"
+  },
+  "@valoraciones": {
+    "description": "Ratings label",
+    "type": "text"
+  },
+  "@asignaturas": {
+    "description": "Subjects label",
+    "type": "text"
+  },
+  "@alumnos": {
+    "description": "Students label",
+    "type": "text"
+  },
+  "@descripcion": {
+    "description": "Description section title",
+    "type": "text"
+  },
+  "@sin_descripcion": {
+    "description": "Text when no description is available",
+    "type": "text"
+  },
+  "@sin_asignaturas": {
+    "description": "Text when no subjects are assigned",
+    "type": "text"
+  },
+  "@disponibilidad": {
+    "description": "Availability section title",
+    "type": "text"
+  },
+  "@sin_disponibilidad": {
+    "description": "Text when no availability is set",
+    "type": "text"
+  },
+  "@historial_clases": {
+    "description": "Class history section title",
+    "type": "text"
+  },
+  "@historial_clases_alumno": {
+    "description": "Text for student class history message",
+    "type": "text"
+  },
+  "@iniciar_chat": {
+    "description": "Start chat button label",
+    "type": "text"
+  },
+  "@iniciar_chat": {
+    "description": "Start chat button label",
+    "type": "text"
+  },
+  "@select_role": {
+    "description": "Text for the role selection heading",
+    "type": "text"
+  },
+  "@select_role_message": {
+    "description": "Message asking the user to select their role",
+    "type": "text"
+  },
+  "@i_am_teacher": {
+    "description": "Button text for selecting the teacher role",
+    "type": "text"
+  },
+  "@i_am_student": {
+    "description": "Button text for selecting the student role",
+    "type": "text"
+  },
+  "@role_note": {
+    "description": "Note regarding profile update after role selection",
+    "type": "text"
+  },
+  "@user_profile": {
+    "description": "Title for the user profile page",
+    "type": "text"
+  },
+  "@ratings": {
+    "description": "Label for the ratings section",
+    "type": "text"
+  },
+  "@subjects": {
+    "description": "Label for the subjects section",
+    "type": "text"
+  },
+  "@students": {
+    "description": "Label for the students section",
+    "type": "text"
+  },
+  "@description": {
+    "description": "Title for the description section",
+    "type": "text"
+  },
+  "@no_description": {
+    "description": "Text for when no description is available",
+    "type": "text"
+  },
+  "@no_level_specified": {
+    "description": "Text for when no level is specified for a subject",
+    "type": "text"
+  },
+  "@no_subjects_assigned": {
+    "description": "Text for when no subjects are assigned to a user",
+    "type": "text"
+  },
+  "@availability": {
+    "description": "Title for the availability section",
+    "type": "text"
+  },
+  "@no_availability_configured": {
+    "description": "Text for when availability has not been configured",
+    "type": "text"
+  },
+  "@class_history": {
+    "description": "Title for the class history section",
+    "type": "text"
+  },
+  "@class_history_description": {
+    "description": "Description text for the class history section",
+    "type": "text"
+  },
+  "@settings": {
+    "description": "Label for the settings button",
+    "type": "text"
+  },
+  "@update_data": {
+    "description": "Label for the update data button",
+    "type": "text"
+  }
+
+}
+
